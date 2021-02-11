@@ -1,0 +1,76 @@
+.signup {
+  .nav-signup {
+    color: #fbbc58;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+
+  .nav-signup:hover {
+    text-decoration: none;
+    color: #d39d46;
+  }
+
+  .header-login {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fbbc58;
+  }
+
+  .login {
+    text-decoration: none;
+    color: #fbbc58;
+    font-weight: 500;
+
+    &:hover {
+      color: #d39d46;
+    }
+  }
+
+  // MOBILE VERSION
+  @media (max-width: 991.98px) {
+    .navbar-signup {
+      float: right;
+      margin-top: 15px;
+    }
+
+    .header-login {
+      margin-top: 20px;
+    }
+  }
+
+  .page-auth {
+    .row-login {
+      min-height: 70vh;
+    }
+
+    .section-store-auth {
+      .label-form {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fbbc58;
+      }
+
+      .form-control {
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #fbbc58;
+        border-radius: 0%;
+        padding: 0;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+      }
+
+      .btn-login {
+        background-color: #fbbc58;
+        color: #000;
+        font-weight: 500;
+      }
+    }
+
+    .another-login {
+      margin-top: 50px;
+    }
+  }
+}

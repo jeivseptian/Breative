@@ -1,0 +1,82 @@
+.login {
+  .nav-link-login {
+    color: #095d6a;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+
+  .nav-link-login:hover {
+    text-decoration: none;
+    color: #095d6a;
+  }
+
+  .header-login {
+    font-size: 32px;
+    font-weight: 500;
+    color: #095d6a;
+  }
+
+  .signup {
+    text-decoration: none;
+    color: #095d6a;
+    font-weight: 500;
+
+    &:hover {
+      color: #0e8597;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .navbar-login {
+      float: right;
+      margin-top: 14px;
+    }
+
+    .nav-link-login {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .label-signup {
+      display: none;
+    }
+
+    .header-login {
+      margin-top: 20px;
+    }
+  }
+
+  .page-auth {
+    .row-login {
+      min-height: 70vh;
+    }
+
+    .section-store-auth {
+      .label-form {
+        font-size: 24px;
+        font-weight: 500;
+        color: #095d6a;
+      }
+
+      .form-control {
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #095d6a;
+        border-radius: 0%;
+        padding: 0;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+      }
+
+      .btn-login {
+        background-color: #095d6a;
+      }
+    }
+
+    .another-login {
+      margin-top: 50px;
+    }
+  }
+}
